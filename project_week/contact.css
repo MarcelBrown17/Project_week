@@ -1,0 +1,119 @@
+.back-image2 {
+  background-image: url(./Images/02f2649eaa7743a8e0a117c3e0a386ee.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: darken;
+}
+
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 15px;
+  border: 5px solid rgb(0, 0, 0);
+  box-sizing: border-box;
+  resize: vertical;
+  color: rgb(6, 6, 6);
+  padding: 15px;
+  font-size: 20px;
+  margin-top: 25px;
+}
+
+
+input[type="submit"] {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 15px 25px;
+    border: 5px solid #000;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  input[type="submit"]:hover {
+    background-color: #336fee;
+    color: rgb(0, 0, 0);
+  }
+
+  .message1{
+    padding: 20px;
+}
+
+.form-container{
+    margin-top: 70px;
+}
+  
+footer{
+  background-color: black;
+}
+
+.footer-container{
+  width:100%;
+  padding: 40px 20px;
+  margin-top: 80px;
+}
+
+.social-icons{
+  display: flex;
+  justify-content: center;
+}
+
+.social-icons a {
+  text-decoration: none;
+  padding: 15px 22px;
+  background-color: white;
+  margin: 10px;
+  border-radius: 50%;
+}
+
+.social-icons a i{
+  font-size: 25px;
+  color: black;
+  opacity: 0,9;
+}
+
+.social-icons a:hover{
+  background-color: black;
+  transition: 0.5s;
+}
+
+.social-icons a:hover i{
+  color: white;
+  transition: 0.5s;
+}
+
+.footer-nav{
+  margin: 30px 0px;
+}
+
+.footer-nav ul{
+  display: flex;
+  justify-content: center;
+}
+.footer-nav ul li a{
+color: white;
+margin: 20px;
+text-decoration: none;
+font-size: 10px;
+opacity: 0,7;
+transition: 0.5s;
+}
+
+.footer-nav ul li a: hover{
+  opacity: 1;
+}
+.footer-bottom{
+  background-color: #000;
+  padding: 20px;
+  text-align: center;
+}
+.footer-bottom p{
+  color: white;
+  .designer{
+      opacity:0.7;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      font-weight: 300;
+      margin: 0px 5px;;
+      
+  }
+}
