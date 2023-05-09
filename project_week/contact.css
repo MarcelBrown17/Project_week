@@ -1,46 +1,20 @@
 .back-image2 {
-  background-image: url(./Images/02f2649eaa7743a8e0a117c3e0a386ee.jpg);
+  background-image: url(./Images/17145340.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-blend-mode: darken;
 }
 
-input[type="text"],
-select,
-textarea {
-  width: 100%;
-  padding: 15px;
-  border: 5px solid rgb(0, 0, 0);
-  box-sizing: border-box;
-  resize: vertical;
-  color: rgb(6, 6, 6);
-  padding: 15px;
-  font-size: 20px;
-  margin-top: 25px;
+input[type="submit"]{
+  margin-top: 10px;
+  justify-content: center;
 }
-
-
-input[type="submit"] {
-    background-color: #ffffff;
-    color: rgb(0, 0, 0);
-    padding: 15px 25px;
-    border: 5px solid #000;
-    border-radius: 4px;
-    cursor: pointer;
-  }
 
   input[type="submit"]:hover {
-    background-color: #336fee;
-    color: rgb(0, 0, 0);
+    background-color: #2e24c4;
+    color: rgb(255, 255, 255);
   }
 
-  .message1{
-    padding: 20px;
-}
-
-.form-container{
-    margin-top: 70px;
-}
   
 footer{
   background-color: black;
@@ -48,7 +22,7 @@ footer{
 
 .footer-container{
   width:100%;
-  padding: 40px 20px;
+  padding: 5px 0px;
   margin-top: 80px;
 }
 
@@ -81,26 +55,6 @@ footer{
   transition: 0.5s;
 }
 
-.footer-nav{
-  margin: 30px 0px;
-}
-
-.footer-nav ul{
-  display: flex;
-  justify-content: center;
-}
-.footer-nav ul li a{
-color: white;
-margin: 20px;
-text-decoration: none;
-font-size: 10px;
-opacity: 0,7;
-transition: 0.5s;
-}
-
-.footer-nav ul li a: hover{
-  opacity: 1;
-}
 .footer-bottom{
   background-color: #000;
   padding: 20px;
@@ -117,3 +71,34 @@ transition: 0.5s;
       
   }
 }
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+h1 {
+    margin-bottom: 40px;
+}
+
+label {
+    color: #000000;
+}
+
+.btn-send {
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    width: 80%;
+    margin-left: 3px;
+    }
+.help-block.with-errors {
+    color: #ff5050;
+    margin-top: 5px;
+
+}
+
+.card{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+

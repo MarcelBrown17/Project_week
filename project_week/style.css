@@ -29,7 +29,7 @@ footer{
 
 .footer-container{
     width:100%;
-    padding: 40px 20px;
+    padding: 5px 0px;
     margin-top: 80px;
 }
 
@@ -62,26 +62,6 @@ footer{
     transition: 0.5s;
 }
 
-.footer-nav{
-    margin: 30px 0px;
-}
-
-.footer-nav ul{
-    display: flex;
-    justify-content: center;
-}
-.footer-nav ul li a{
-color: white;
-margin: 20px;
-text-decoration: none;
-font-size: 10px;
-opacity: 0,7;
-transition: 0.5s;
-}
-
-.footer-nav ul li a: hover{
-    opacity: 1;
-}
 .footer-bottom{
     background-color: #000;
     padding: 20px;
@@ -98,3 +78,9 @@ transition: 0.5s;
         
     }
 }
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
