@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Raleway&display=swap');mport url('https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap');
+
+*{
+  font-family: 'Lato', sans-serif !important;
+font-family: 'Raleway', sans-serif !important;
+}
+
 .header1 {
   font-size: 100px;
   text-align: center;
@@ -14,6 +21,26 @@
       0 0 50px #ff4da6;
   }
 }
+
+.nav-text{
+  font-weight: bold;
+  font-size: 20px;
+}
+
+@media and screen (max-width: 600px) {
+  .Marcel {
+    width: 150px !important;
+    height: 200px !important;
+  }
+
+}
+
+.Marcel{
+  width: 300px;
+  height: 400px;
+}
+  
+
 
 .profile-picture{
   margin-bottom: 30px;

@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Raleway&display=swap');mport url('https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap');
+
+*{
+  font-family: 'Lato', sans-serif !important;
+font-family: 'Raleway', sans-serif !important;
+}
 .header1 {
     font-size: 100px;
     text-align: center;
@@ -15,12 +21,17 @@
     }
   }
 
+.nav-text{
+    font-weight: bold;
+    font-size: 20px;
+}
+
 .back-image1 {
     background-image: url("./Images/Full-HD-1080p-Milky-Way-Galaxy-Wallpaper.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-blend-mode: darken;
-}
+    image-rendering: optimizeSpeed;}
 
 
 footer{
@@ -45,6 +56,7 @@ footer{
     margin: 10px;
     border-radius: 50%;
 }
+
 
 .social-icons a i{
     font-size: 25px;

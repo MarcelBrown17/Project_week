@@ -1,3 +1,11 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Raleway&display=swap');mport url('https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap');
+
+*{
+  font-family: 'Lato', sans-serif !important;
+font-family: 'Raleway', sans-serif !important;
+}
+
 .header1 {
   font-size: 100px;
   text-align: center;
@@ -19,7 +27,10 @@
   background-image: url(./Images/stars-galaxy-2560x1440-10307.jpg);
 }
 
-
+.nav-text{
+  font-weight: bold;
+  font-size: 20px;
+}
 
 footer{
     background-color: black;
