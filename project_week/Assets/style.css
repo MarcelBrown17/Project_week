@@ -21,6 +21,11 @@ font-family: 'Raleway', sans-serif !important;
     }
   }
 
+  html,
+body{
+  overflow-x:hidden;
+}
+
 .nav-text{
     font-weight: bold;
     font-size: 20px;

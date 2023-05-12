@@ -5,6 +5,11 @@
 font-family: 'Raleway', sans-serif !important;
 }
 
+html,
+body{
+  overflow-x:hidden;
+}
+
 .header1 {
   font-size: 100px;
   text-align: center;

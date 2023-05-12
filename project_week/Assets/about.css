@@ -5,6 +5,11 @@
 font-family: 'Raleway', sans-serif !important;
 }
 
+html,
+body{
+  overflow-x:hidden;
+}
+
 .header1 {
   font-size: 100px;
   text-align: center;
@@ -51,6 +56,14 @@ font-family: 'Raleway', sans-serif !important;
 background-size: cover;
     background-repeat: no-repeat;
     background-blend-mode: darken;
+  }
+
+  ul{
+    padding:0 !important;
+  }
+
+  mb-4{
+    padding:0 !important;
   }
 
 
